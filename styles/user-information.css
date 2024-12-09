@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    margin-bottom: 0;
+  }
+  
+  main {
+    display: flex;
+  
+    width: 98%;
+    gap: 20px;
+    height: 90vh;
+    /* width: 95%;
+    border: 1px solid #dacfcc; */
+    /* margin: auto; */
+    /* width: 100%; */
+  }
+  
+  aside {
+    position: relative;
+    height: 100%;
+    width: 22%;
+    background-color: #dacfcc;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    /* border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; */
+  }
+  
+  #change-password,
+  #payment,
+  #notification {
+    display: none;
+  }
+  
+  .titles {
+    padding: 30px 0;
+    cursor: pointer;
+  }
+  
+  #update-info {
+    display: flex;
+    width: 75%;
+  }
+  
+  main form {
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    /* width: 100%; */
+    align-items: center;
+    padding-top: 5px;
+  }
+  
+  #update-info .container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 30px;
+  }
+  
+  /* #a9856c 0%, #dacfcc 100%) */
+  .titles:hover {
+    background-color: #a9856c94;
+    color: white;
+  }
+  
+  aside .btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 75px;
+  }
+  
+  .btn button {
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(110, 110, 110, 0.233);
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn button:hover {
+    background-color: #a9856c94;
+  }
+  
+  .input-icon {
+    display: flex;
+  }
+  
+  .disabled {
+    color: gray;
+    pointer-events: none;
+  }
+  
+  .enable {
+    color: black;
+    pointer-events: auto;
+  }
+  
+  .input-icon i {
+    width: 10px;
+    font-size: 25px;
+    pointer-events: auto;
+    cursor: pointer;
+    color: #84847f;
+    padding: 15px;
+  }
+  .input-icon i:hover {
+    color: #a9856c;
+  }
+  
+  .input-icon {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 400px;
+  }
+  
+  .input-icon input {
+    padding: 7px 13px;
+    flex: 1;
+  }
+  
+  #update-info .btn,
+  #change-password .btn {
+    height: 33px;
+    background-color: white;
+    color: #a9856c;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 170px;
+    height: 40px;
+    border: 1px solid #a9856c;
+  }
+  
+  #update-info .btn:hover,
+  #change-password .btn:hover {
+    border: none;
+    background-color: #a9856c94;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .UpdateInformation,
+  .pbtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #change-password form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    border-color: #84847f;
+  }
+  
+  #change-password input {
+    width: 300px;
+    margin-top: 9px;
+  }
+  
+  #change-password .pinput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 400px;
+  }
+  #change-password input {
+    padding: 7px 13px;
+    flex: 1;
+  }
+  
+  #change-password {
+    margin: auto;
+  }
+  #change-password .btn {
+    width: 120px;
+  }
+  
+  .profilepic{
+    
+    width:80px;
+    height:80px;
+  }
+
+  /* Profile Picture Section */
+.pic {
+  margin-bottom: 20px;
+}
+
+.pic label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.pic .input-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pic input[type="file"] {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.pic img {
+  max-width: 80px;
+  max-height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  margin-left: 10px;
+}
+
+/* Add hover effect on the file input for a more interactive feel */
+.pic input[type="file"]:hover {
+  border-color: #888;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.pic img:hover {
+  border-color: #666;
+  transition: border-color 0.3s ease;
+}
