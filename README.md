@@ -18,8 +18,7 @@ The **Responsive Web-Based Room Booking System** is a collaborative project deve
 
 > **Note**: Each member has contributed uniquely to the development of this project, ensuring high-quality output and collaborative teamwork.
 
----
-
+--- 
 ## 🚀 Features  
 
 ### 🔒 **User Registration and Login**  
