@@ -78,7 +78,7 @@ include 'connection.php';
             <div class="sub2">
                 <a href="addRoom.php"><div class="button">Add New Room</div></a>
                 <a href="browsing-admin.php"><div class="button">Browse Rooms</div></a>
-                <a href="archived.php"><div class="button">Deleted Room List</div></a>
+
                 
             </div>
         </fieldset>

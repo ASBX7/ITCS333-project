@@ -113,7 +113,11 @@ catch (PDOException $e)
                     </ul>
                 </div>
                 </nav>
-                </header>";}?>
+                </header>
+                        <script src='script\pop-up.js'></script>
+                        <script src='script\header.js'></script>
+
+        ";}?>
 
     <?php
         require('connection.php');
@@ -176,7 +180,7 @@ catch (PDOException $e)
         }
         }
 
-        
+
 
         ?>
 
