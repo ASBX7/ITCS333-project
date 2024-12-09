@@ -1,0 +1,79 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+  }
+  /* img{
+      display: block;
+      max-width: 100%;
+    } */
+  
+  .container {
+    width: 80%;
+    /* height: 500px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  legend {
+    text-align: center;
+    font-size: 80px;
+    color: #000000;
+  }
+  fieldset {
+    /* background: no-repeat url("../images/contactUs2.jpg" ); */
+    /* background-size:900px; */
+    border-color: #ffffff;
+    width: 60%;
+    margin: 2rem auto 2rem auto;
+    padding-top: 2.5rem;
+    position: relative;
+    background-color: #f5ecda;
+    border-radius: 30px;
+  }
+  
+  .contact-card {
+    /* background: no-repeat url("../images/contactUs1.jpg" ); */
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2.5px solid #f7f9ec;
+    margin-bottom: 20px;
+    background-color: #f7f9ec;
+    border-radius: 30px;
+  }
+  .info1 {
+    margin-top: 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .info0 {
+    font-weight: 700;
+    font-size: 40px;
+  }
+  
+  .info2 {
+    margin-top: 00px;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .info3 {
+    font-weight: 700;
+    font-size: 40px;
+  }
+  
+  fieldset i {
+    font-size: 4rem;
+    color: black;
+  }
+  .space {
+    padding-left: 2rem;
+  }
+  .space2 {
+    padding-left: 60px;
+  }
+  
