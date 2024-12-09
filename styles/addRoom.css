@@ -1,0 +1,80 @@
+fieldset form {
+    width: 100%;
+  }
+  
+  .container input,
+  .container select {
+    /* height: 30px; */
+    width: 290px;
+    border: 1px solid #000000;
+    margin-bottom: 30px;
+    font-family: "Times New Roman", Times, serif;
+    border-radius: 30px;
+    background-color: #f9faf3;
+    padding: 10px 20px;
+    font-size: 17px;
+  }
+  
+  fieldset {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  legend {
+    font-family: "Times New Roman", Times, serif;
+    font-size: x-large;
+    font-weight: 700;
+  }
+  .container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  }
+  .Half {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 100px; */
+    margin-top: 30px;
+    width: 300px;
+  }
+  
+  fieldset form button {
+    border-radius: 30px;
+    height: 30px;
+    margin-left: 190px;
+    margin-bottom: 50px;
+    background-color: #f5ecda;
+    border-color: #f5ecda;
+  
+    margin: auto;
+  }
+  
+  .addRoomButton {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .addRoomButton .mybutton {
+    border: 1px solid #a9856c94;
+    width: 150px;
+    border-radius: 10px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: transparent;
+  }
+  
+  .addRoomButton .mybutton:hover {
+    background-color: #a9856c94;
+    border: none;
+    color: white;
+  }
+  
+  
+  
+  
